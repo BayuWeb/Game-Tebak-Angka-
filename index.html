@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Tebak Angka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1> Game Tebak Angka </h1>
+
+    <div class="range-input">
+      <label>setting angkanyaa disini yaa: </label>
+      <input type="number" id="min" value="1"> -
+      <input type="number" id="max" value="100">
+      <button id="applyRange">Set</button>
+    </div>
+
+    <p id="message">masukkin angkanya disinii!!!</p>
+
+    <input type="number" id="guessInput" placeholder="Tebak angka...">
+    <button id="guessBtn">Tebak!</button>
+    <button id="restartBtn">Mulai Ulang</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
